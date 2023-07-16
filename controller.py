@@ -1,3 +1,8 @@
+from functional import Functional
+from number import Number
+from view import View
+
+
 def run():
     check_num = 0
     while check_num != 6:

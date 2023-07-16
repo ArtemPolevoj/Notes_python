@@ -72,3 +72,11 @@ class View:
             print("\tВсе заметки удалены.")
         else:
             print("\tПри удалении заметок произошла ошибка.")
+
+    @staticmethod
+    def exit_msg():
+        print("\t\tДо свидания.")
+
+    @staticmethod
+    def lack_note():
+        print("\tЗаметки отсутствуют.")

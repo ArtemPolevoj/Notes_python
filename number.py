@@ -1,3 +1,6 @@
+from file_work import File
+
+
 class Number:
     @staticmethod
     def get_number(text, value):

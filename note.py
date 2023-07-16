@@ -1,3 +1,8 @@
+import datetime
+
+from number import Number
+
+
 class Note:
     __id = 0
     __title = ""

@@ -36,4 +36,7 @@ class Number:
 
     @staticmethod
     def max_number():
-        return max(File().reading().keys())
+        if len(File().reading()) == 0:
+            return 0
+        else:
+            return max(File().reading().keys())

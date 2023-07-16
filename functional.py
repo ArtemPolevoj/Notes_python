@@ -1,4 +1,4 @@
-import datetime
+from datetime import datetime
 
 from file_work import File
 from note import Note
